@@ -1,0 +1,50 @@
+div {
+	margin-top:10px;
+	border: 5px solid hsla(0, 0%, 0%, 1);
+	background-color: hsla(53, 100%, 47%, 0.3);
+	font-size:30;
+}
+
+body {
+	color: ivory;
+	background-image: url('https://www.liveabout.com/thmb/t3119-dj4cOvEBhu8s2khH6_OYY=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/academy-of-motion-picture-arts-and-sciences---discover-the-academy--with-geoffrey-fletcher-142848283-5c759444c9e77c0001e98d4a.jpg');
+	background-position: center;
+}
+
+.banner_image {
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQvjHiFycNq62INahXUb43gXeTPEbcTHrtL6A&usqp=CAU');
+    width: 70%;
+	height: 50%;
+	background-position: center;
+	margin: auto;
+}
+
+.banner_text {
+	font-size: 70px;
+	text-align: center;
+	color: gold;
+}
+
+.header {
+  color: black;
+  font-style: italic;
+	margin-left: 50px;
+	font-size: 35px;
+}
+
+p, li, ul {
+	margin-left:15px;
+	font-size:20px;
+}
+
+.link {
+	color: brown;
+}
+
+.link:hover {
+	color: orange;
+}
+
+.link a {
+	color: inherit;
+}
