@@ -1,0 +1,50 @@
+div {
+	margin-top:10px;
+	border: 5px solid hsla(0, 0%, 0%, 1);
+	background-color: hsla(335, 88%, 80%, 0.3);
+	font-size:30;
+}
+
+body {
+	color: ivory;
+	background-image: url('https://lh3.googleusercontent.com/proxy/P3TenaYUWKshnJUnICj9bXujzWdcuWsMqeHEYTUwezcAsfkSaIsKQ4Fms3Ip0w4s7O5ZnM6WGjEF78QrIASouCyUIbkUfJHubePrNVK2A5tU5P7U3cm3lewXT1F08wwv7N1L6Zf1Ewp6lfDd49unm6SOHw');
+	background-position: center;
+}
+
+.banner_image {
+	background-image: url('https://i.pinimg.com/originals/31/70/14/3170141a292ab0a525e7b4ae4d55dc0f.jpg');
+    width: 60%;
+	height: 50%;
+	background-position: center;
+	margin: auto;
+}
+
+.banner_text {
+	font-size: 70px;
+	text-align: center;
+	color: lightgray;
+}
+
+.header {
+  color: pink;
+  font-style: italic;
+	margin-left: 50px;
+	font-size: 35px;
+}
+
+p, li, ul {
+	margin-left:15px;
+	font-size:20px;
+}
+
+.link {
+	color: magenta;
+}
+
+.link:hover {
+	color: pink;
+}
+
+.link a {
+	color: inherit;
+}

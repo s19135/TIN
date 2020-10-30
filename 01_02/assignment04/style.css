@@ -1,0 +1,13 @@
+form * {
+    font-style: bold;
+    font-size: 16px;
+}
+
+form label {
+    color: darkBlue;
+}
+
+
+form label.nd {
+    color: red;
+}
