@@ -1,0 +1,75 @@
+
+.header-img {
+  width: 325px;
+  height: 175px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url('https://strefa-kostek.pl/img/cms/WCAlogo.svg');
+  background-size: cover;
+  border-radius: 10px;
+  transform: rotate(6deg);
+  -webkit-filter: drop-shadow(10px 10px 10px rgba(0,0,0,1));
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction:column;
+}
+
+H1{
+	text-align: center ;
+	column-span: all
+}
+
+body{
+	background-color: #d4edff;
+}
+
+@media screen and (min-width: 800px){
+	.flexbox{
+		display: flex;
+		flex-direction: row;
+		width : 100%;
+	}
+	
+	.columnsDiv{
+		column-count: 3;
+		column-gap: 30px;
+		column-width: 200px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.flexbox{
+		display: flex;
+		flex-direction: column-reverse;
+		width : 100%;
+	}
+	
+	.columnsDiv{
+		column-count: 1;
+	}
+}
+
+img{
+	border-radius: 20px;
+}
+
+
+
+.imgRight{
+	float: right;
+	
+}
+.imgLeft{
+	float: left;
+	border: 10px solid #00000000;
+}
+
+footer{
+	text-align: center;
+}
+
+
