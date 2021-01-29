@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>6a</title>
+    <script type="text/javascript" src="6a.js"></script>
+</head>
+<body>
+    <div>
+        <form name="input-form" method="get" action="">
+            <p>Value to convert: <label>
+                <input type="text" id="degrees" name="degrees-input-box" value="">
+            </label></p>
+            <p>Convert to: <br>
+                <input type="radio" id="fahrenheit" name="temp-type" value="F">
+                <label for="fahrenheit">Fahrenheit</label><br>
+                <input type="radio" id="celsius" name="temp-type" value="C">
+                <label for="celsius">Celsius</label>
+            </p>
+            <p>
+                <button name="button" onclick="convert(document.getElementById('degrees').value, document.getElementById('fahrenheit'),document.getElementById('celsius')); 
+                return false;">Convert</button>
+            </p>
+            <div id="result"></div>
+        </form>
+    </div>
+
+</body>
+</html>

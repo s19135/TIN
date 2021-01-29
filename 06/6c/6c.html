@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>6c</title>
+    <script type="text/javascript" src="6c.js"></script>
+</head>
+<body>
+    <form name="input-form" method="get" action="">
+        <div id="num-div">
+            <label id="num" for="num-box">Number: </label><input name="num-box" type="text" id="num-box" value="">
+        </div>
+        <div style="margin: 15px" id="email-div">
+            <label for="email-box">Email: </label>
+            <input name="email-box" type="text" value="" id="email-box">
+        </div>
+        <p style="margin: 10px 160px">
+            <button name="button" onclick="return check(document.getElementById('num-box').value, document.getElementById('email-box').value);">Check</button>
+        </p>
+        <div id="result">
+        </div>
+    </form>
+</body>
+</html>
