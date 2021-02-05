@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIN9</title>
+    <script src="calculator.js"></script>
+</head>
+<body>
+<form onsubmit="return false;">
+    <input type="number" name="x" id="x">
+    <input type="number" name="y" id="y">
+    <select name="operations" id="operations">
+        <option value="add">Add</option>
+        <option value="sub">Subtract</option>
+        <option value="mul">Multiply</option>
+        <option value="div">Divide</option>
+    </select>
+    <button onclick="calculate()">Calculate</button>
+</form>
+<p id="result">0</p>
+</body>
+</html>
